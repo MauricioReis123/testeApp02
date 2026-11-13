@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<network-security-config>
+
+    <!--
+      Configuração temporária para desenvolvimento.
+      Permite HTTP durante os testes locais.
+    -->
+    <base-config cleartextTrafficPermitted="true">
+
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+
+    </base-config>
+
+</network-security-config>
+
